@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Xcode build output / user state
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+
+# Xcode build server / SwiftPM
+.swiftpm/
+.build/
+
+# Local secrets — never commit real VPN configs (keys, endpoints)
+*.conf
+*.vpn
